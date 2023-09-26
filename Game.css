@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+    
+body{
+    width: 100%;
+    min-width: 679px;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.jogo{
+    text-align: center;
+    background-color: rgb(99, 198, 234);
+    width: 100%;
+    padding: 10px;}
+    
+header{ 
+    display: flex;
+    width:100%;
+    height:40px;
+    background-color: #349fa3;
+    justify-content: center;
+        
+}
+.menu{
+    display: flex;
+    list-style: none;
+}    
+li{
+    margin: 7px 15px;
+}
+ul:last-child{
+    margin-right: 20px;}
+
+li a {
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    color:#fff;
+    padding: 3px;
+}
+.menu li a:hover{ display: block;
+    color: #fff;
+   border-style: solid;
+    border-color: #3e1ace;
+    padding: 1px;
+}
+
+
+.nome{text-align: center;
+    color:#fff;
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 10px;}
+    
+
+.integrante img{border-radius: 50%;
+width: 130px;}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+ 
+.integrante{display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #2057d8;
+width:360px;
+height: 460px;
+margin: 10.5px;
+border-radius: 15px;
+flex-wrap: nowrap;
+
+}
+
+.funcao{background-color: #6A6FF4;
+text-align: center;
+border-radius: 10px;
+margin: 15px 10px 0px 10px;
+padding: 5px;
+}
+
+.andamento{background-color: #55a2d2 ;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px 10px 0px 10px;
+padding: 5px;
+
+}
+
+h1{
+    margin-top: 8px;
+color: #d9dee1;
+text-align: center;}
+
+.nome_foto{display: flex;
+flex-direction: column;
+align-items: center;}
+
+.descricao{margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/*rodape*/
+
+.rodape{
+    background-color: #4671c7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+   
+    
+
+    }
+    
+    .fim p{
+    white-space: nowrap;
+    margin:10px;
+    color: #fff;
+    
+    }
+    
+    
+    .rede_social{ 
+        display: flex;
+
+        list-style: none;
+    
+    }
+    
+    .rede_social li a{
+        text-decoration: none;  
+        margin-left: 10px;
+    }
+
+    

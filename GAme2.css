@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+    
+body{
+    width: 100%;
+    min-width: 679px;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+    
+.jogo{
+    text-align: center;
+    background-color: rgb(99, 198, 234);
+    width: 100%;
+    padding: 10px;
+}
+    
+header{ 
+    display: flex;
+    width:100%;
+    height:40px;
+    background-color: #349fa3;
+    justify-content: center;
+        
+}
+.menu{
+    display: flex;
+    list-style: none;
+}    
+li{
+    margin: 7px 15px;
+}
+ul:last-child{
+    margin-right: 20px;}
+
+li a {
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    color:#fff;
+    padding: 3px;
+}
+.menu li a:hover{ display: block;
+    color: #fff;
+   border-style: solid;
+    border-color: #7a44cb;
+    padding: 1px;
+}
+
+.nome{
+ color: white;
+width: 100%;
+margin-top: 13px;
+margin-bottom: 15px;
+}
+
+.corpo{
+display:flex;
+align-items: center;            
+justify-content: center;
+flex-direction: column;
+text-align: center;
+flex-wrap: wrap;
+
+}
+
+
+
+
+.gameplay{
+color: #fff;
+background-color: rgb(13, 75, 104);
+width: 100%;
+border-radius: 20px 20px 0 0;
+display: flex;
+flex-direction: column;
+padding-top: 5px;
+
+}
+
+
+.blocos{
+ display: flex;
+width: 80%;
+margin-bottom: 10px;
+border-radius: 30%;
+flex-wrap: wrap;
+}
+
+
+.mecânicas{
+background-color: #77AAEF   ; 
+width: 50%; 
+padding: 10px;  
+display: flex;    
+flex-direction: column; 
+border-radius: 0px 0px 10px 0px;
+
+
+}
+
+.armas{display: flex;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+  
+  
+}
+
+.imagem{ width: 45%;
+    height: 55%;
+    margin-bottom: 15px;
+    margin-top: -10px;
+    
+}
+
+.atos{
+background-color: #6A6FF4;
+width: 50%;
+padding: 10px;
+border-radius: 0px 0px 0px 10px;
+
+
+}
+
+p{font-size: 1.2vw;
+}
+
+
+.descriçao{margin: 20px 10px 0px 0px;
+display: flex;
+text-align: left;
+
+
+}
+
+.rodape{
+    background-color: #4671c7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+
+    }
+
+    .atos p:first-child{
+        margin-top: 20px;}
+
+    
+    
+    .fim p{
+    white-space: nowrap;
+    margin:10px;
+    color: #fff;
+    
+    }
+    
+    
+    .rede_social{ 
+        display: flex;
+        list-style: none;
+    
+    }
+    
+    .rede_social li a{
+        text-decoration: none;  
+        margin-left: 10px;
+    }
+
+
+
+        

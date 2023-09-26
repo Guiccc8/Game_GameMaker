@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+    
+body{
+    width: 100%;
+  
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.jogo{
+    text-align: center;
+    background-color: rgb(99, 198, 234);
+    width: 100%;
+    padding: 10px;}
+    
+header{ 
+    display: flex;
+    width:100%;
+    height:40px;
+    background-color: #349fa3;
+    justify-content: center;
+        
+}
+.menu{
+    display: flex;
+    list-style: none;
+}    
+li{
+    margin: 7px 15px;
+}
+ul:last-child{
+    margin-right: 20px;}
+
+li a {
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    color:#fff;
+    padding: 3px;
+}
+.menu li a:hover{ display: block;
+    color: #fff;
+   border-style: solid;
+    border-color: #7a44cb;
+    padding: 3px;
+}
+
+.nome{
+
+    color: white;
+    width: 100%;
+    margin-top: 13px;
+    
+}
+
+
+.princ{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+ 
+    
+  
+    
+}
+.corpo{
+    background-color: rgb(6, 202, 202);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  
+    
+    border-radius: 0px 0px 20px 20px;
+}
+
+#titulo{
+
+    margin-top: 10px;
+    padding: 5px;
+    background-color: blueviolet;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+#game{
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+   height: 500px;
+   margin-bottom: 10px;
+    
+}
+
+.meio{width: 90%;
+}
+
+p{font-size: 1.3vw;
+line-height: 150%;}
+
+.rodape{
+    background-color: #4671c7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+ 
+
+  
+          
+
+    }
+    
+    .fim p{
+    white-space: nowrap;
+    margin:10px;
+    color: rgb(255, 255, 255);
+    
+    }
+    
+    
+    .rede_social{ 
+        display: flex;
+        color: black;
+        list-style: none;
+    
+    }
+    
+    .rede_social li a{
+        text-decoration: none;  
+        margin-left: 10px;
+    }
